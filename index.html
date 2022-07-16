@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <nav id="navbar" class="navbar d-flex">
+        <button class="menu-btn">
+          <img src="./images/icon-menu.svg" alt="menu" />
+        </button>
+
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+
+        <ul id="nav-links" class="nav-links d-flex">
+          <button class="close-btn">
+            <img src="./images/icon-close.svg" alt="close" />
+          </button>
+          <li><a href="#">collections</a></li>
+          <li><a href="#">men</a></li>
+          <li><a href="#">women</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+
+        <div class="cart-wrapper">
+          <button id="cart-btn" class="cart-btn p-absolute-center">
+            <img src="./images/icon-cart.svg" alt="cart" />
+          </button>
+          <span id="amount" class="amount"></span>
+
+          <div id="cart-items" class="cart-items">
+            <div class="cart-head">
+              <h4>Cart</h4>
+            </div>
+            <div id="cart-body" class="cart-body d-flex">
+              <p>Your cart is empty.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="avatar-box">
+          <button class="avatar-btn">
+            <img src="./images/image-avatar.png" alt="avatar" />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- End Of Header -->
+
+    <!-- Start Main -->
+    <main>
+      <section id="product-wrapper" class="product-wrapper d-flex"></section>
+      <div id="lightbox-gallery" class="lightbox-gallery"></div>
+    </main>
+    <!-- End Of Main -->
+
+    <!-- Start Footer -->
+    <footer class="attribution d-flex">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/MBenmasour95">Mehdi95</a>.
+    </footer>
+    <!-- End Of Footer -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
