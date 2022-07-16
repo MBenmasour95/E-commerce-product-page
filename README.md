@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL here](https://your-solution-url.com)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/ecommerce-product-page-using-html-css-vanilla-js-FiHuBz8UhQ)
 - Live Site URL: [URL here](https://mbenmasour95.github.io/E-commerce-product-page/)
 
 ## My process
